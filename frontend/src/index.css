@@ -1,0 +1,12 @@
+/* index.css - базові стилі */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
