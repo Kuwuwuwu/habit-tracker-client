@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd backend && node server.js",
-    "client": "cd frontend && npm run dev"
-  },
+  "homepage": "https://Kuwuwuwu.github.io/habit-tracker-client",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
