@@ -1,9 +1,9 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
-const HabitSchema = new mongoose.Schema({
+const habitSchema = new mongoose.Schema({
   name: String,
   completed: Boolean,
-  completedAt: Date,
+  completedAt: String,
 });
 
-module.exports = mongoose.model('Habit', HabitSchema);
+export default mongoose.model('Habit', habitSchema);
