@@ -5,3 +5,4 @@ export default defineConfig({
   base: './', // 👈 для Vercel
   plugins: [react()],
 });
+
